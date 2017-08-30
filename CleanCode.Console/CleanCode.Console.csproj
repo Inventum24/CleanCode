@@ -42,11 +42,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharpHandbook\03Usage\Enums.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramistaByc\SOLID\01SRP\BadEmployee.cs" />
+    <Compile Include="ProgramistaByc\SOLID\01SRP\GoodEmployee.cs" />
+    <Compile Include="ProgramistaByc\SOLID\02OCP\AreaCalculatorBreakingRules.cs" />
+    <Compile Include="ProgramistaByc\SOLID\02OCP\AreaCalculateOCP.cs" />
+    <Compile Include="ProgramistaByc\SOLID\02OCP\Rectangle.cs" />
+    <Compile Include="ProgramistaByc\SOLID\02OCP\Shape.cs" />
+    <Compile Include="ProgramistaByc\SOLID\02OCP\Triangle.cs" />
+    <Compile Include="ProgramistaByc\SOLID\03LSP\Car.cs" />
+    <Compile Include="ProgramistaByc\SOLID\03LSP\ElectricCar.cs" />
+    <Compile Include="ProgramistaByc\SOLID\03LSP\Vehicle.cs" />
+    <Compile Include="ProgramistaByc\SOLID\04ISP\IVehicle.cs" />
+    <Compile Include="ProgramistaByc\SOLID\05DIP\Article.cs" />
+    <Compile Include="ProgramistaByc\SOLID\05DIP\ArticleRepository.cs" />
+    <Compile Include="ProgramistaByc\SOLID\05DIP\IArticleRepository.cs" />
+    <Compile Include="ProgramistaByc\SOLID\05DIP\IErpDatabaseContext.cs" />
+    <Compile Include="ProgramistaByc\SOLID\05DIP\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Files\C#Handbook.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProgramistaByc\SOLID\01SRP\01SRP.txt" />
+    <Content Include="ProgramistaByc\SOLID\02OCP\01OCP.txt" />
+    <Content Include="ProgramistaByc\SOLID\03LSP\01LSP.txt" />
+    <Content Include="ProgramistaByc\SOLID\04ISP\01ISP.txt" />
+    <Content Include="ProgramistaByc\SOLID\05DIP\01DIP.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSharpHandbook\01Naming\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
